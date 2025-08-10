@@ -1,13 +1,13 @@
 {
-  "homepage": "https://itsmeHzm.github.io/FromMalayaToMalaysia",
+  "homepage": "https://itsmehzm.github.io/FromMalayaToMalaysia",
   "name": "r3f-vite-starter",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy" : "yarn build",
-    "deploy" : "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },

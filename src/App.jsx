@@ -44,7 +44,7 @@ useEffect(() => {
 
   //Play background audio on load (or after interaction if blocked)
   useEffect(() => {
-  const audio = new Audio("/audio/negaraku.mp3");
+  const audio = new Audio("./audio/negaraku.mp3");
   audio.loop = true;
   audio.volume = 0.05;
   audioRef.current = audio;
